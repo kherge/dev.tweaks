@@ -8,5 +8,8 @@
 # Allow this file.
 !/.gitignore
 
+# Allow the LICENSE file.
+!/LICENSE
+
 # Allow the README file.
 !/README.md
