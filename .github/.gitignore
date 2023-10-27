@@ -1,0 +1,6 @@
+# Allow this file.
+!/.gitignore
+
+# Allow workflow files.
+!/workflows/
+!/workflows/*.yaml

@@ -7,6 +7,9 @@
 # Allow this file.
 !/.gitignore
 
+# Allow GitHub files.
+!/.github/
+
 # Allow the feature source files.
 !/src/
 
