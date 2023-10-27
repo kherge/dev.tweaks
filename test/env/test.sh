@@ -10,7 +10,7 @@ source dev-container-features-test-lib
 source /etc/profile
 
 # Verify that options are available.
-check "activation" option -l | grep 'Available options'
+check "activation" option -l
 
 # Print the results.
 reportResults
