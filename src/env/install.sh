@@ -9,7 +9,7 @@ export DEBIAN_FRONTEND=noninteractive
 # Make sure that require dependencies are available.
 install_packages()
 {
-  if dpkg-reconfigure -s "$@" > /dev/null; then
+  if dpkg -s "$@" > /dev/null; then
     echo "Installing missing packages..."
 
     apt-get update
