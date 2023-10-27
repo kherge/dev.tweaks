@@ -34,6 +34,8 @@ rm main.zip
 # List options to activate on first login.
 INIT="$_REMOTE_USER_HOME/.options"
 
+echo "Creating activation file in $INIT..."
+
 if [ "$_LS" != '' ]; then
   echo 'option -e ls' >> "$INIT"
 fi
