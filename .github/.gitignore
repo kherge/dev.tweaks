@@ -4,3 +4,7 @@
 # Allow workflow files.
 !/workflows/
 !/workflows/*.yaml
+
+# Allow issue templates.
+!/ISSUE_TEMPLATE/
+!/ISSUE_TEMPLATE/*.yml
