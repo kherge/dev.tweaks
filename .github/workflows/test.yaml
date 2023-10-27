@@ -10,7 +10,7 @@ on:
       - main
 
   # For all pull request activity.
-  pullrequest:
+  pull_request:
 
   # When manually triggered.
   workflow_dispatch:
