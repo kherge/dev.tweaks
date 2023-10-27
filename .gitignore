@@ -7,3 +7,6 @@
 
 # Allow this file.
 !/.gitignore
+
+# Allow the README file.
+!/README.md
