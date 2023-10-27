@@ -10,6 +10,9 @@
 # Allow the feature source files.
 !/src/
 
+# Allow the feature test files.
+!/test/
+
 # Allow the LICENSE file.
 !/LICENSE
 

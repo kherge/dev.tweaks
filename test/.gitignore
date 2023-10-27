@@ -1,0 +1,8 @@
+# Allow this file.
+!/.gitignore
+
+# Allow the files for each feature.
+!/*/
+
+# Allow the known minimum required files.
+!/*/test.sh
