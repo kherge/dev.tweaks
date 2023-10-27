@@ -66,4 +66,4 @@ echo "Modifying /etc/profile..."
 echo >> /etc/profile
 echo '# loading shell customizations' >> /etc/profile
 echo '. /opt/sh.env/env.sh /opt/sh.env' >> /etc/profile
-echo '[ -f .options ] && . .options' >> /etc/profile
+echo '[ -f .options ] && sh .options' >> /etc/profile
