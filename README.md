@@ -7,3 +7,8 @@ Features
 --------
 
 Please refer to the documentation [for each feature available](src/).
+
+License
+-------
+
+The features available in this repository are released under the ISC license.
