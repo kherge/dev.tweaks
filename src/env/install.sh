@@ -31,10 +31,15 @@ unzip main.zip -d .
 mv ./sh.env-main/ /opt/sh.env
 rm main.zip
 
-# List options to activate on first login.
-INIT="$_REMOTE_USER_HOME/.options"
+# Create the configuration directory.
+CONFIG_DIR="$_REMOTE_USER_HOME/.config/env"
 
-echo "Creating activation file in $INIT..."
+mkdir -p "$CONFIG_DIR"
+
+# List options to activate on first login.
+INIT="$CONFIG_DIR/wishlist"
+
+echo "Adding enabled options to wishlist: $INIT"
 
 if [ "$_LS" != '' ]; then
   echo 'option -e ls' >> "$INIT"
@@ -66,4 +71,3 @@ echo "Modifying /etc/profile..."
 echo >> /etc/profile
 echo '# loading shell customizations' >> /etc/profile
 echo '. /opt/sh.env/env.sh /opt/sh.env' >> /etc/profile
-echo '[ -f .options ] && sh .options' >> /etc/profile
