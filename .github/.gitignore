@@ -8,3 +8,6 @@
 # Allow issue templates.
 !/ISSUE_TEMPLATE/
 !/ISSUE_TEMPLATE/*.yml
+
+# Allow the pull request template.
+!/PULL_REQUEST_TEMPLATE.md
