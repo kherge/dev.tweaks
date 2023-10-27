@@ -1,5 +1,9 @@
 # Ignore everything.
 *
 
+# Allow some Visual Studio Code files.
+!/.vscode/
+!/.vscode/settings.json
+
 # Allow this file.
 !/.gitignore
