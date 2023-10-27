@@ -1,0 +1,5 @@
+# Allow this file.
+!/.gitignore
+
+# Allow the settings file.
+!/settings.json
