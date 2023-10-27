@@ -17,7 +17,7 @@ install_packages()
   fi
 }
 
-install_packages curl unzip
+install_packages ca-certificates curl unzip
 
 # Download sh.env.
 echo "Downloading sh.env..."
