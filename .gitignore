@@ -13,6 +13,14 @@
 # Allow the feature source files.
 !/src/
 
+# Allow the files for each feature.
+!/src/*/
+
+# Allow the known minimum required files.
+!/src/*/README.md
+!/src/*/devcontainer-feature.json
+!/src/*/install.sh
+
 # Allow the feature test files.
 !/test/
 
