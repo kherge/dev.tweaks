@@ -20,6 +20,7 @@ jobs:
 
   # Runs the default tests for each feature.
   default-tests:
+    name: Default Feature Tests
     runs-on: ubuntu-latest
 
     # Allow all scenario builds to be attempted.
@@ -52,6 +53,7 @@ jobs:
 
   # Run the test scenarios for each feature.
   scenario-tests:
+    name: Feature Scenario Tests
     runs-on: ubuntu-latest
 
     # If one scenario fails, allow the others to be attempted.
@@ -80,6 +82,7 @@ jobs:
 
   # Run the global tests.
   global-tests:
+    name: Global Tests
     runs-on: ubuntu-latest
 
     # Allow testing to continue on error.
