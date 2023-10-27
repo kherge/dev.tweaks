@@ -1,0 +1,10 @@
+# Allow this file.
+!/.gitignore
+
+# Allow the files for each feature.
+!/*/
+
+# Allow the known minimum required files.
+!/*/README.md
+!/*/devcontainer-feature.json
+!/*/install.sh
