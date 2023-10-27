@@ -1,0 +1,33 @@
+{
+  "id": "env",
+  "name": "env",
+  "version": "1.0.0",
+  "description": "Installs sh.env and sets initial settings.",
+  "options": {
+    "_ls": {
+      "description": "Activates the `ls` customization",
+      "type": "boolean",
+      "default": true
+    },
+    "_path": {
+      "description": "Activates the `path` customization",
+      "type": "boolean",
+      "default": true
+    },
+    "_ps1": {
+      "description": "Activates the `ps1` customization",
+      "type": "boolean",
+      "default": true
+    },
+    "_sdkman": {
+      "description": "Activates the `sdkman` customization",
+      "type": "boolean",
+      "default": false
+    },
+    "_var": {
+      "description": "Activates the `var` customization",
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
